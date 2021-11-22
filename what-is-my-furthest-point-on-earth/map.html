@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<style type="text/css">
+
+#arrow {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+</style>
+
+
+<div id="container">
+    <img src="./map.png" id="map" />
+    <img src="./arrow.png" id="arrow" width="16" height="16"/>
+</div>
+<script>
+
+var img = document.getElementById("map");
+img.addEventListener("click", function(e) {
+  console.log(e);
+
+  var c = document.getElementById("container");
+  var ol = c.offsetLeft;
+  var ot = c.offsetTop;
+
+  var z = 5
+  var a = document.getElementById("arrow");
+  a.style.top = 2**(z+8) - (e.layerY - ot) + "px";
+
+  if (e.layerX - ol < 2**(z+7)) {
+    a.style.left = (e.layerX - ol) + 2**(z+7) + "px";
+  } else {
+    a.style.left = (e.layerX - ol) - 2**(z+7) + "px";
+  }
+
+})
+</script>
+
+</body>
+</html>
