@@ -9,7 +9,7 @@ Since most of our planet surface is water, then I wanted to know how much area o
 
 ![map overlay](map_overlay.png)
 
-The image shows an overlay of two maps, the normal map in white and blue, and the furthest area represents in transparent black with hard edges.
+The image shows an overlay of two maps, the normal map in white and blue, and the furthest area represents in transparent black with hard edges. The area where the land of both maps are overlapped is the part in which both ends are land.
 
 I've heard some Americans say that if they dig straight down, they'd come out in China. Well, they wouldn't If they dig through the center of the earth. Instead, they'd come out somewhere in the ocean south of India, according to the above image.
 
