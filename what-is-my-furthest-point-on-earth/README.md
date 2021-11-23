@@ -1,5 +1,5 @@
 # What is my furthest point on Earth?
-Have you ever wondering if you were to dig straight down through the center of the earth and come out to the other side, where would you end up? Well, I have, and I found out that it would be the furthest point on the planet. It's obvious, isn't it?
+Have you ever wondering if you were to dig straight down through the center of the earth and come out to the other side, where would you end up? Well, I have, and I found out that it would be the furthest point on the planet relative to your dig location. It's obvious, isn't it?
 
 For example, If you dig straight down in Singapore, you'd come out around the east part of Ecuador. The calculation is really simple. First, you need to get the [geodetic coordinates](https://en.wikipedia.org/wiki/Geodetic_coordinates) latitude and longitude of the location you want. To find the furthest point, you negate the sign of the latitude, and for the longitude, if it's negative you add 180 but if it's positive you subtract 180.
 
