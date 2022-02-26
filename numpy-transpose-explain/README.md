@@ -68,8 +68,8 @@ Now about `numpy.transpose()`,
 This function can change the way NumPy will go through each element.
 To use it, first you need to think about which axis you want to go through first.
 Let's say, 0th axis (layers) first, then 2nd (column), then 1st (row).
-Now put these indices 0, 2, 1 to numpy.transpose() parameter.
-BUT WAIT! You need to put them in a reverse order as follows.
+Now put these indices 0, 2, 1 to `numpy.transpose()` parameter.
+**BUT WAIT!** You need to put them in a reverse order as follows.
 
 
 ```python
